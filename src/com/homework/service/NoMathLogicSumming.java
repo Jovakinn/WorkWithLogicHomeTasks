@@ -1,14 +1,14 @@
 package com.homework.service;
 
 public class NoMathLogicSumming {
-    public void noMathSumming(int bigNumNoMath){
-        Integer Str = bigNumNoMath;
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("");
-        stringBuilder.append(Str);
-        String Strr = stringBuilder.toString();
-        System.out.println(Strr);
+    public void change(int bigNumNoMath){
+        Integer.toString(bigNumNoMath);
+        noMathSumming(String.valueOf(bigNumNoMath));
+    }
 
-
+    public void noMathSumming(String bigNumNoMath){
+        String.valueOf(bigNumNoMath);
+        String stringNew = bigNumNoMath;
+        char[] m = stringNew.toCharArray();
     }
 }

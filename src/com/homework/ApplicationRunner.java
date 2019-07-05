@@ -11,7 +11,7 @@ public class ApplicationRunner {
       System.out.println();
 
       NoMathLogicSumming noMathLogicSumming = new NoMathLogicSumming();
-      noMathLogicSumming.noMathSumming(12345);
+      noMathLogicSumming.change(12345);
 
     }
 }
